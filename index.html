@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>tic-tac-toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  	<div id="game">
+		<div class="cell" data-id="0"></div>
+		<div class="cell" data-id="1"></div>
+		<div class="cell" data-id="2"></div>
+		<div class="cell" data-id="3"></div>
+		<div class="cell" data-id="4"></div>
+		<div class="cell" data-id="5"></div>
+		<div class="cell" data-id="6"></div>
+		<div class="cell" data-id="7"></div>
+		<div class="cell" data-id="8"></div>
+	</div> 
+	<p id="message">
+		Ходит: x
+	</p>
+	<input type="button" id="restart" value="Начать сначала">
+	<div id="statistics">
+		<p>
+			Выиграл <b>x</b>: <span id="win_x">0</span>
+		</p>
+		<p>
+			Выиграл <b>0</b>: <span id="win_0">0</span>
+		</p>
+		<p>
+			Ничья: <span id="win_draw">0</span>
+		</p>
+	</div>
+</body>
+<script src="js.js"></script>
+</html>

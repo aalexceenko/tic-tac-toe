@@ -1,0 +1,37 @@
+#game {
+  width: 156px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  font-size: 0;
+}
+.cell {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  font-size: 26px;
+  border: 1px solid #000;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: background .1s;
+}
+.cell:hover {
+  background: #eee;
+}
+#message {
+  text-align: center
+}
+#restart {
+  margin: 0 auto;
+  display: block;
+}
+#statistics {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 1px solid;
+  padding: 0 20px;
+  display: inline-block;
+}
